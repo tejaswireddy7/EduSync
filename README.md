@@ -15,8 +15,6 @@
 - Automated testing: UI (Selenium, Appium), load, build and vulnerability tests
 - CI/CD with GitHub Actions
 
-> TODO: Replace or extend this list with the specific features your users see (e.g. courses, quizzes, progress tracking, roles).
-
 ## Architecture
 
 ```
@@ -95,8 +93,6 @@ pip install -r requirements.txt
 uvicorn main:app --reload --port 8000
 ```
 
-> TODO: Confirm the entry point (`main:app`) and port match your code.
-
 ### 4. Frontend
 
 ```bash
@@ -109,7 +105,6 @@ npm run dev
 
 Create a `.env` file in each service that needs one. Never commit real secrets.
 
-> TODO: Replace these with the exact variable names your code reads.
 
 | Variable | Used by | Description |
 |----------|---------|-------------|
@@ -151,13 +146,10 @@ The repository includes several test suites, each in its own folder:
 - `build-tests/`: build verification
 - `vulnerability-tests/`: security checks
 
-> TODO: Add the command to run each suite (e.g. `npm test`, `pytest`, `k6 run ...`).
 
 ## CI/CD
 
 GitHub Actions workflows in `.github/workflows/` automate checks on the repository. The frontend is deployed on Vercel.
-
-> TODO: Briefly describe what each workflow does (build, test, deploy).
 
 ## Contributing
 
@@ -167,11 +159,6 @@ GitHub Actions workflows in `.github/workflows/` automate checks on the reposito
 4. Push the branch: `git push origin feature/your-feature`
 5. Open a pull request
 
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
-> TODO: Add a `LICENSE` file to the repo if you don't have one.
 
 ## Author
 
