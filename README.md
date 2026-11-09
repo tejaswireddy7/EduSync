@@ -63,8 +63,8 @@ PDD-EDUSYNC/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/tejaswireddy7/PDD-EDUSYNC.git
-cd PDD-EDUSYNC
+git clone https://github.com/tejaswireddy7/EduSync.git
+cd EduSync
 ```
 
 ### 2. Backend
@@ -106,35 +106,35 @@ npm run dev
 Create a `.env` file in each service that needs one. Never commit real secrets.
 
 
-| Variable | Used by | Description |
-|----------|---------|-------------|
-| `SUPABASE_URL` | Frontend, Backend | Your Supabase project URL |
-| `SUPABASE_KEY` | Frontend, Backend | Supabase API key |
-| `JWT_SECRET` | Backend | Secret used to sign auth tokens |
-| `ML_SERVICE_URL` | Backend | URL of the running ML service |
-| `SMTP_*` | Backend | Email (Nodemailer) settings |
+| Variable         |      Used by      |           Description           |
+|------------------|-------------------|-------------------------------- |
+| `SUPABASE_URL`   | Frontend, Backend | Your Supabase project URL       |
+| `SUPABASE_KEY`   | Frontend, Backend | Supabase API key                |
+| `JWT_SECRET`     | Backend           | Secret used to sign auth tokens |
+| `ML_SERVICE_URL` | Backend           | URL of the running ML service   |
+| `SMTP_*`         | Backend           | Email (Nodemailer) settings     |
 
 ## Available Scripts
 
 **Backend (`pdd-backend`)**
 
-| Command | Description |
-|---------|-------------|
-| `npm run dev` | Start the dev server with ts-node |
-| `npm run build` | Compile TypeScript to `dist/` |
-| `npm start` | Run the compiled server |
-| `npm run lint` | Lint the source with ESLint |
-| `npm run format` | Format the source with Prettier |
+|     Command     |            Description            |
+|-----------------|-----------------------------------|
+| `npm run dev`   | Start the dev server with ts-node |
+| `npm run build` | Compile TypeScript to `dist/`     |
+| `npm start`     | Run the compiled server           |
+| `npm run lint`  | Lint the source with ESLint       |
+| `npm run format`| Format the source with Prettier   |
 
 **Frontend (`pdd-frontend`)**
 
-| Command | Description |
-|---------|-------------|
-| `npm run dev` | Start the Vite dev server |
-| `npm run build` | Create a production build |
+|      Command      |         Description          |
+|-------------------|------------------------------|
+| `npm run dev`     | Start the Vite dev server    |
+| `npm run build`   | Create a production build    |
 | `npm run preview` | Preview the production build |
-| `npm run lint` | Lint with ESLint |
-| `npm run format` | Format with Prettier |
+| `npm run lint`    | Lint with ESLint             |
+| `npm run format`  | Format with Prettier         |
 
 ## Testing
 
